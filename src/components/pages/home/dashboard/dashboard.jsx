@@ -4,7 +4,7 @@ import LoadingBar from 'components/shared/loading-bar';
 
 import Notifications from '../notifications/notifications';
 
-import Chart from './chart';
+// import Chart from './chart';
 import nodesIllustration from './images/nodes-illustration.url.svg';
 import PieChart from './pie-chart';
 import ProgressWithPercentage from './progress-with-percentage';
@@ -56,7 +56,7 @@ const Dashboard = () => {
         </li>
       </ul>
       <div className="relative flex lg:min-h-[250px] sm:min-h-[250px]">
-        <Chart />
+        {/* <Chart /> */}
       </div>
       <div className="flex space-x-10 xl:space-x-5 sm:space-x-0" aria-hidden>
         <div className="w-1/2 sm:hidden">
